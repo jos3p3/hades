@@ -1,0 +1,101 @@
+body{text-align: center;}
+
+/*********text*********/
+
+h1{font-family: "caesar";
+ font-size: 3.0rem;
+ line-height: 1.5;
+ color: rgb(246, 246, 246);}
+ 
+h2{font-family: caesar; font-size: 3rem; line-height: 1.5;}
+
+h3{font-family: "Montserrat-bold"; font-size: 1.5rem;}
+
+p{color: #8f8f8f;}
+
+.last-h3{font-family: "caesar";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: rgb(246, 246, 246);}
+
+.title-1{font-family: "Montserrat-Medium"; font-size: 1rem; line-height: 2;}
+
+em{color: rgb(74, 0, 0);}
+
+.name{color: #4e0041;}
+
+.last-p{padding: 5%;}
+
+@font-face {font-family:caesar; src: url(CaesarDressing-B153.ttf);}
+
+.title-characters{color: rgb(247, 247, 247); padding: 20px;}
+
+/**********images*********/
+
+.mc{position: absolute;
+  left: 50%;
+  height: 80%;    
+  top: 15%;}
+
+.move{position: relative;
+  left: 20px;
+  height: 250px;
+bottom: 50px;
+border-radius: 100%;
+margin: 20px;}
+
+
+/**********nav-bar*********/
+
+.navbar-brand{font-family: "ubuntu"; font-size: 2.5rem; font-weight: bold; }
+
+.navbar-item{padding: 0 15px;}
+
+.nav-link{font-size: 1.2rem; font-family: Montserrat-light ;}
+
+.navbar{padding: 0 0 3.5rem}
+
+/**********buttom*********/
+
+.dowload-buttom{margin: 3% 3% 4% 0%;}
+
+/**********icon**********/
+
+.icon{color: #ac1c1c; margin-bottom: 1rem;}
+
+.icon:hover{color:#721414;}
+
+.icons2v{color: #bd2828; padding-left: 2.5rem;}
+
+/************id¨**********/
+ 
+#features{padding: 7% 15%; background-color: rgb(255, 255, 255); position: relative; z-index: 1;}
+
+#cta{background-color: black; padding: 7% 15%;}
+
+#footer{padding: 5% 15%;}
+
+#title {color: rgb(142, 142, 142); background: rgba(0, 0, 0, 0.65) url('behind-img.png'); background-blend-mode:darken; text-align: left;}
+
+#testimonials{text-align:center; font-size: 1rem; line-height: 2;} 
+/****mobile-version****/
+
+@media  (max-width:1080px) {#title{text-align: center;} .mc{position: static;}}
+
+/**********etc**********/
+
+.container-fluid{padding: 3% 15%;}
+
+.press-logo{width: 15%; margin: 20px 20px;}
+
+.carousel-item{padding: 10% 15%; }
+
+.letters{font-family: fantas;}
+
+/***********colors**********/
+
+.change-color{background-color: #721414;}
+
+.change-colornyx{background-color: rgb(118, 3, 118);}
+
+.change-color2{background-color: #03050b;}
